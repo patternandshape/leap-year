@@ -12,8 +12,8 @@ a leap year based on divisibility by 4, 100 and 400.
 Install leap-year by cloning this repository.
 
 ##Technologies Used
-*Application: JS/Jquery
-*Testing: Mocha and Chai
+* Application: JS/Jquery
+* Testing: Mocha and Chai
 
 ##Legal
 This software is licensed under the MIT license.
