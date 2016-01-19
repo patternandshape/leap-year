@@ -15,8 +15,17 @@ describe('leapYear', function() {
     expect (leapYear(2000)).to.equal(true);
   });
 
-  it("is a word", function() {
-    expect (leapYear("boing")).to.equal(true);
+  it("is false for a word", function() {
+    expect (leapYear("dog")).to.equal(false);
   });
+
+  it("is false for nothing", function() {
+    expect (leapYear()).to.equal(false);
+  });
+
+  it("is false for negative years", function() {
+    expect (leapYear(-123)).to.equal(false);
+  });
+
 
 });
