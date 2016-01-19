@@ -2,7 +2,7 @@
 
 #####A little program that determines if a given year is a leap year or not.
 
-#### By Molly Curtin
+#### By Molly Curtin and Torrence Stratton
 
 ##Description
 This application takes a single input from the user and evaluates whether it is
